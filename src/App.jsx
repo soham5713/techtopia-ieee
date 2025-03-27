@@ -23,7 +23,7 @@ export default function App() {
   }, []);
 
   return (
-    <div 
+    <div
       className='h-screen w-full flex items-center justify-center bg-cover bg-center bg-no-repeat'
       style={{
         backgroundImage: `url('./pink-clouds-background.webp')`
@@ -31,7 +31,7 @@ export default function App() {
     >
       {isMobile ? (
         <Spline
-          scene="https://prod.spline.design/IroWuiAXHCqLsUXn/scene.splinecode" 
+          scene="https://prod.spline.design/JicyBDF54FEmvzwO/scene.splinecode"
           width={428}
           height={926}
         />
