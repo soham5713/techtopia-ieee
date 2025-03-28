@@ -36,7 +36,7 @@ export default function App() {
           height={926}
         />
       ) : (
-        <Spline scene="https://prod.spline.design/zBSbzdZ-WlmK69Vm/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/ERrreC0H9Vvwhpq6/scene.splinecode" />
       )}
     </div>
   );
