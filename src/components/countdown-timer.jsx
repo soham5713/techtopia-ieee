@@ -70,6 +70,11 @@ export default function CountdownTimer({ targetDate, uiColors, isMobile }) {
           <span className={`${isMobile ? "text-xl" : "text-lg"} font-bold`}>{formatNumber(timeLeft.minutes)}</span>
           <span className="text-[10px]">MINS</span>
         </div>
+        <span className={`${isMobile ? "text-xl" : "text-lg"}`}>:</span>
+        <div className="flex flex-col items-center">
+          <span className={`${isMobile ? "text-xl" : "text-lg"} font-bold`}>{formatNumber(timeLeft.seconds)}</span>
+          <span className="text-[10px]">MINS</span>
+        </div>
       </div>
     </div>
   )

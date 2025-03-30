@@ -68,7 +68,7 @@ export default function App() {
           isLoading ? "opacity-0" : "opacity-100"
         }`}
         style={{
-          backgroundImage: `url('/pink-clouds-background.webp')`,
+          backgroundImage: `url('/artwork-simple-background-blue-stars-wallpaper-ebf69cfd13211fe92594cb491dfc1c80.jpg')`,
         }}
       >
         {/* Logo - Always in top left */}
