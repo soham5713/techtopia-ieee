@@ -31,12 +31,14 @@ export default function App() {
     >
       {isMobile ? (
         <Spline
-          scene="https://prod.spline.design/JicyBDF54FEmvzwO/scene.splinecode"
+          scene="https://prod.spline.design/e0MT89M0cxovG7VG/scene.splinecode"
           width={428}
           height={926}
         />
       ) : (
-        <Spline scene="https://prod.spline.design/ERrreC0H9Vvwhpq6/scene.splinecode" />
+        <Spline
+        scene="https://prod.spline.design/qPaFK4QbIyWDYm7T/scene.splinecode" 
+      />
       )}
     </div>
   );
