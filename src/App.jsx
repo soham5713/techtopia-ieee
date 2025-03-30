@@ -68,12 +68,12 @@ export default function App() {
           isLoading ? "opacity-0" : "opacity-100"
         }`}
         style={{
-          backgroundImage: `url('/src/assets/pink-clouds-background.webp')`,
+          backgroundImage: `url('/pink-clouds-background.webp')`,
         }}
       >
         {/* Logo - Always in top left */}
         <div className="absolute top-5 left-5 z-10 pointer-events-auto">
-          <img src="/src/assets/ieee-BladhgC_.png" alt="IEEE SPIT" className="h-16" />
+          <img src="/ieee-BladhgC_.png" alt="IEEE SPIT" className="h-16" />
         </div>
 
         {/* IEEE SPIT Header - Always in top center */}
