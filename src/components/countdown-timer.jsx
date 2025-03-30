@@ -73,7 +73,7 @@ export default function CountdownTimer({ targetDate, uiColors, isMobile }) {
         <span className={`${isMobile ? "text-xl" : "text-lg"}`}>:</span>
         <div className="flex flex-col items-center">
           <span className={`${isMobile ? "text-xl" : "text-lg"} font-bold`}>{formatNumber(timeLeft.seconds)}</span>
-          <span className="text-[10px]">MINS</span>
+          <span className="text-[10px]">SECS</span>
         </div>
       </div>
     </div>
